@@ -1,9 +1,24 @@
 import React from 'react';
+import { divide } from 'react-native-reanimated';
+import EmergencyButton from '~/components/EmergencyButton';
+import { StyleSheet, View } from 'react-native';
 
 class Home extends React.Component {
     render() {
-      return <h1>Home</h1>;
+      return (
+        <View style={styles.container}>
+            <EmergencyButton />
+        </View>
+      );
     }
 }
 
 export default Home
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
