@@ -1,17 +1,17 @@
 import React from 'react';
 import { StyleSheet, Text } from 'react-native';
+import Logo from '~/assets/logo';
 
 class Header extends React.Component {
     render() {
         return (
-            <Text style={styles.header}>test</Text>
+            <Logo />
         );
     }
 }
 
 const styles = StyleSheet.create({
     header: {
-        height: 'min-content',
         width: '100%',
         backgroundColor: '#2A2F34',
     },

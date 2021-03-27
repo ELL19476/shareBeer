@@ -1,9 +1,4 @@
-import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-} from "react-router-dom";
+import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
 
@@ -14,32 +9,21 @@ import Settings from '~/pages/Settings';
 import Requests from '~/pages/Requests';
 import Footer from '~/components/Footer';
 
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
 //import styles from '~/styles/App'
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <Router>
-        <View style={styles.container}>
-            <Header />
-            {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-            <View style={styles.main}>
-                <Switch>
-                    <Route path="/requests">
-                        <Requests />
-                    </Route>
-                    <Route path="/settings">
-                        <Settings />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch>
-            </View>
-
-            <Footer />
-        </View>
-    </Router>
+    <NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
+            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen name="Requests" component={Requests} />
+        </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

@@ -11,7 +11,6 @@ class Footer extends React.Component {
 
 const styles = StyleSheet.create({
     footer: {
-        height: 'min-content',
         width: '100%',
         backgroundColor: '#2A2F34',
     },
