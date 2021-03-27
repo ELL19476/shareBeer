@@ -80,6 +80,10 @@ function SvgComponent(props) {
             </Text>
             <Text
               className="prefix__cls-5"
+              transform="matrix(.79 -.66 .64 .77 369.99 421.57)"
+            />
+            <Text
+              className="prefix__cls-5"
               transform="matrix(.87 -.55 .54 .84 389.68 402.67)"
             >
               {"N"}
@@ -120,6 +124,10 @@ function SvgComponent(props) {
             >
               {"L"}
             </Text>
+            <Text
+              className="prefix__cls-5"
+              transform="matrix(.91179 .4791 -.46515 .88523 839.67 355.06)"
+            />
             <Text
               className="prefix__cls-5"
               transform="matrix(.84936 .58266 -.56569 .82462 864.58 366.49)"
@@ -176,6 +184,10 @@ function SvgComponent(props) {
             </Text>
             <Text
               className="prefix__cls-6"
+              transform="matrix(-.35 .97 -.94 -.34 1059.47 875.76)"
+            />
+            <Text
+              className="prefix__cls-6"
               transform="matrix(-.43 .93 -.91 -.42 1053.28 895.11)"
             >
               {"B"}
@@ -200,6 +212,10 @@ function SvgComponent(props) {
             </Text>
             <Text
               className="prefix__cls-6"
+              transform="rotate(136.58 270.075 711.683) scale(1.03 1)"
+            />
+            <Text
+              className="prefix__cls-6"
               transform="matrix(-.78 .67 -.65 -.76 940.4 1057.28)"
             >
               {"I"}
@@ -216,6 +232,10 @@ function SvgComponent(props) {
             >
               {"T"}
             </Text>
+            <Text
+              className="prefix__cls-6"
+              transform="matrix(-.94263 .41516 -.40307 -.91517 836.77 1126.22)"
+            />
             <Text
               className="prefix__cls-6"
               transform="matrix(-.97 .34 -.33 -.94 818.34 1134.96)"
@@ -248,6 +268,10 @@ function SvgComponent(props) {
             </Text>
             <Text
               className="prefix__cls-6"
+              transform="matrix(-1.01232 -.19 .18447 -.98284 586.06 1161.45)"
+            />
+            <Text
+              className="prefix__cls-6"
               transform="rotate(-164.4 362.33 540.47) scale(1.03 1)"
             >
               {"K"}
@@ -276,6 +300,10 @@ function SvgComponent(props) {
             >
               {"K"}
             </Text>
+            <Text
+              className="prefix__cls-6"
+              transform="matrix(-.74 -.72 .7 -.72 363.87 1052.64)"
+            />
             <Text
               className="prefix__cls-6"
               transform="matrix(-.68 -.77 .75 -.66 348.88 1038.82)"
