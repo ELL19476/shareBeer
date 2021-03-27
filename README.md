@@ -8,11 +8,9 @@ app.meinbierbeidir.com
 
 com.meinbierbeidir.app
 
-# required npm packages
+# svg support
 
-* react
-* react-native
-* react-router-dom
+<https://blog.usejournal.com/how-to-use-svg-in-react-native-e581eca59534>
 
 # figma
 
