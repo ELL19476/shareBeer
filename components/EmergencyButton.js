@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { StyleSheet, Image } from 'react-native';
 
 class EmergencyButton extends React.Component {

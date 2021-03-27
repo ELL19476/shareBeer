@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import {
     BrowserRouter as Router,
@@ -13,7 +12,7 @@ import Header from '~/components/Header';
 import Home from '~/pages/Home';
 import Settings from '~/pages/Settings';
 import Requests from '~/pages/Requests';
-import Footer from '~/components/footer';
+import Footer from '~/components/Footer';
 
 //import styles from '~/styles/App'
 
