@@ -1,11 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text } from 'react-native';
-import Logo from '~/assets/logo';
 
 class Header extends React.Component {
     render() {
         return (
-            <Logo />
+            <Text style={styles.header}>test</Text>
         );
     }
 }
