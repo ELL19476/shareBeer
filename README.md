@@ -8,6 +8,12 @@ app.meinbierbeidir.com
 
 com.meinbierbeidir.app
 
+# required npm packages
+
+* react
+* react-native
+* react-router-dom
+
 # figma
 
 <https://www.figma.com/file/xt2Kwy6PIAcj2O37FBUUxM/BeerSharing?node-id=0%3A1>
