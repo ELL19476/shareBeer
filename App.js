@@ -19,7 +19,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-        <Stack.Navigator initialRouteName="Home">
+        <Stack.Navigator initialRouteName="Requests">
             <Stack.Screen options={{headerShown: false}} name="Home" component={Home} />
             <Stack.Screen name="Requests" component={Requests} />
 
@@ -28,17 +28,4 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-    container: {
-        backgroundColor: '#2A2F34',
-        height: '100%',
-    },
-    main: {
-        flexGrow: 1,
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#242628',
-    },
-});
 
